@@ -1,5 +1,5 @@
 services:
-  job-management-service:
+  payroll-service:
     build: .
     container_name: payroll-app
     ports:
