@@ -16,6 +16,8 @@ services:
   payroll-service:
     build: .
     container_name: payroll-app
+    depends_on:
+      - db-payroll
     ports:
       - "8084:8084"
     restart: always
